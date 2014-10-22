@@ -10,14 +10,16 @@ To run the cleaning script (run_analysis.R), you must download the zip file your
 
 The data can be found at:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-The script performs the following tasks:
+The run_analysis.R script performs the following tasks:
 
   1.  Merges the training and the test sets to create one data set.
   2.  Extracts only the measurements on the mean and standard deviation for each measurement. 
   3.  Uses descriptive activity names to name the activities in the data set
-  4.  Appropriately labels the data set with descriptive variable names.  I used the existing variable names, and just removed the parenthesis to make the data more user-friendly.
-  5.  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+  4.  Appropriately labels the data set with descriptive variable names.
+  5.  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject*.  This new tidy data set is created as "tidyAverages.txt"
   
-  Please read the supplied CodeBook.md file for more detailed information about the data set.
+  *I believe the variable names should be as consistent as possible with existing variable names.  I have appended "mean-" to the front of each variable to indicate that this is an average of the value for the subject/activity combination, and also removed the parenthesis to make the data easier to work with.
+  
+  Please read the supplied <a href="CodeBook.md">CodeBook.md</a> file for more detailed information about the data set.
 
 This script was created using R 3.1.1 and R-Studio 0.98.99 on Mac OSX V10.9.5.

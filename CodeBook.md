@@ -1,7 +1,7 @@
 #Overview
 This document describes the modified data set output by the run_analysis.R script.
 
-A full description of the original dataset can be found in the README.txt file of the UCI HAR Dataset.zip file.  More information about the original dataset can be found in the README.md file in this project.
+A full description of the original dataset can be found in the README.txt file of the UCI HAR Dataset.zip file.  More information about the original dataset can be found in the <a href="README.md">README.md</a> file in this project.
 
 ##Description of transformed data set, modifed from the original description:
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The original dataset had been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. *The run_analysis.R script merges the two datasets together.*
