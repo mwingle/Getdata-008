@@ -32,6 +32,8 @@ The run_analysis.R script produces tidyAverages.txt, which includes contains the
 
 These are the fields of tidyAverages.txt ouput by the run_analysis.R script.
 
+Units:  Fields starting with "t" are time domain values, already normalized.  Fields starting with "f" are frequency domain values, already normalized.
+
 1. subject
 2. activity
 3. mean-tBodyAcc-mean-X
@@ -106,7 +108,7 @@ Notes:
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
-For more information about this dataset contact: activityrecognition@smartlab.ws
+For more information about this dataset coheantact: activityrecognition@smartlab.ws
 
 License:
 ========

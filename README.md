@@ -2,11 +2,11 @@
 
 The purpose of ths project is to clean and tidy the smartphone activity dataset obtained from the URL below to help facilitate further exploration and analysis.
 
-One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+One of the most exciting areas in all of data science right now is wearable computing - see for example <a href="http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/">this article</a> . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-To run the cleaning script (run_analysis.R), you must download the zip file yourself into the current working directory that the script will be run from.
+To run the cleaning script (run_analysis.R), you must download the zip file yourself into the current working directory that the script will be run from. It should be named "UCI HAR Dataset.zip".
 
 The data can be found at:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
